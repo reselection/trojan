@@ -1,7 +1,8 @@
-import os
+mport os
 
-def run(**args):
-    print "[*] In dirlister module."
+
+def run():
+    print("[*] In dirlister module.")
     files = os.listdir(".")
 
     return str(files)

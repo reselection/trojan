@@ -18,7 +18,7 @@ task_queue = queue.Queue()
 
 class GitImporter(object):
     def __init__(self):
-        self.current_module_code = ""
+        self.current_module_code = "dirlister"
 
     def find_module(self, fullname, path=None):
         if configured:
