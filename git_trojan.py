@@ -50,7 +50,7 @@ def connect_to_github():
     gh = login(username="YourUsername", token="YourToken")
     """
     gh = login(username="reselection", password="Razernaga321")
-    repo = gh.repository("reselectioin", "trojan")
+    repo = gh.repository("reselection", "trojan")
     branch = repo.branch("master")
     return gh, repo, branch
 
