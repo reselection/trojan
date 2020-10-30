@@ -18,7 +18,7 @@ task_queue = queue.Queue()
 
 class GitImporter(object):
     def __init__(self):
-        self.current_module_code = "dirlister"
+        self.current_module_code = ""
 
     def find_module(self, fullname, path=None):
         if configured:
@@ -49,7 +49,7 @@ def connect_to_github():
     GitHub as a value instead of 'YourPassword'. The code should be:
     gh = login(username="YourUsername", token="YourToken")
     """
-    gh = login(username="reselection", password="Razernaga321")
+    gh = login(username="reselection", token="286940165bed48f3c852e33d2f4a045d70bf746d")
     repo = gh.repository("reselection", "trojan")
     branch = repo.branch("master")
     return gh, repo, branch
