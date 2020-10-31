@@ -1,5 +1,8 @@
 [
   {
     "module": "ip_info"
+  },
+  {
+    "module": "hostname"
   }
 ]
