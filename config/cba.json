@@ -1,0 +1,8 @@
+[
+  {
+    "module": "hostname"
+  },
+  {
+    "module": "ip_info"
+  }
+]
