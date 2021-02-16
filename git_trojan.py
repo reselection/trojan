@@ -49,7 +49,7 @@ def connect_to_github():
     GitHub as a value instead of 'YourPassword'. The code should be:
     gh = login(username="YourUsername", token="YourToken")
     """
-    gh = login(username="reselection", token="286940165bed48f3c852e33d2f4a045d70bf746d")
+    gh = login(username="reselection", token="")
     repo = gh.repository("reselection", "trojan")
     branch = repo.branch("master")
     return gh, repo, branch
